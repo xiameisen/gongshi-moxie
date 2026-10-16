@@ -1,0 +1,40 @@
+{
+ "schema": 1,
+ "subjects": [
+  {
+   "id": "calculus",
+   "name": "高等数学",
+   "examScopes": [
+    "数学一",
+    "数学二",
+    "数学三"
+   ],
+   "file": "content/subjects/calculus.json",
+   "status": "active",
+   "note": "已收录：预备知识 → 单变量微积分 → 微分方程 → 多元微积分 → 空间解析几何 → 无穷级数"
+  },
+  {
+   "id": "linear-algebra",
+   "name": "线性代数",
+   "examScopes": [
+    "数学一",
+    "数学二",
+    "数学三"
+   ],
+   "file": "content/subjects/linear-algebra.json",
+   "status": "planned",
+   "note": "规划中：行列式 / 矩阵 / 向量组 / 线性方程组 / 特征值与特征向量 / 二次型"
+  },
+  {
+   "id": "probability",
+   "name": "概率论与数理统计",
+   "examScopes": [
+    "数学一",
+    "数学三"
+   ],
+   "file": "content/subjects/probability.json",
+   "status": "planned",
+   "note": "规划中：随机事件与概率 / 一维与多维随机变量 / 数字特征 / 大数定律与中心极限定理 / 数理统计"
+  }
+ ]
+}
