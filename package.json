@@ -9,6 +9,7 @@
     "build": "node tools/build.mjs",
     "verify": "node tools/verify.mjs",
     "smoke": "node tools/smoke.mjs",
+    "publish": "node tools/publish.mjs",
     "all": "node tools/extract.mjs && node tools/build.mjs && node tools/verify.mjs && node tools/smoke.mjs"
   },
   "dependencies": {

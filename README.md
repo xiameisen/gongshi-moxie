@@ -30,6 +30,30 @@ npm run all                        # 抽取 → 构建 → 校验 → 运行时�
 
 ---
 
+## 在线版
+
+| | |
+| --- | --- |
+| 网址 | <https://xiameisen.github.io/gongshi-moxie/> |
+| 仓库 | <https://github.com/xiameisen/gongshi-moxie> |
+| 发布方式 | GitHub Pages，来源为 `main` 分支的 `/docs` 目录 |
+
+手机、平板直接打开网址即可默写；学习记录存在各自浏览器的 localStorage 里，互不影响。
+
+更新线上版本：
+
+```bash
+npm run all                              # 重建并跑完两道校验
+git add -A && git commit -m "..." && git push
+```
+
+> `tools/publish.mjs` 是备用发布通道：当本机到 `github.com:443` 的连接被阻断、
+> git 的 smart-HTTP 不可用，但 `api.github.com` 可达时，它用 REST API
+> （blob → tree → commit → ref）把工作树推成真实提交，并可顺带开启 Pages。
+> 网络正常时直接用 `git push` 即可，不需要它。
+
+---
+
 ## 目录结构
 
 ```
